@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "87b59d48-a943-43f4-8909-43d287e41e29",
+		"name": "User Login",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"sampath_gowda@epam.com\",\r\n    \"password\":\"sampath\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8001/interview-tracker/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"interview-tracker",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
